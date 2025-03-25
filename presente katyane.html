@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14/04 Katyane VDS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(145deg, #ff99cc, #ff66b2);
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            background-color: #ff4d88;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #ff4d88;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ffff00;
+        
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Katyane Vieira dos Santos</h1>
+    <p>"Neste dia especial, meu amor, celebro não apenas o seu aniversário, mas a luz que você traz à minha vida. Que este novo ano seja repleto de sorrisos, conquistas e momentos inesquecíveis, porque você merece toda a felicidade do mundo. Te amo profundamente. Feliz aniversário!".</p>
+</header>
+
+<section>
+    <h2>Sobre Katyane</h2>
+    <p>Katyane, uma menina doce nascida em 14 de abril, é uma companheira amorosa que, <br>apesar de seu estresse ocasional, sempre se esforça<br> para espalhar alegria e carinho ao seu redor..</p>
+</section>
+
+<section>
+    <h2>Por que eu escolhi você?</h2>
+    <p>Eu escolhi você para namorar porque sinto que temos uma conexão especial,<br> que compartilhamos valores e interesses semelhantes, <br>e porque admiro a maneira como conseguimos nos comunicar abertamente. <br>Acredito que juntos podemos enfrentar desafios e crescer, <br>construindo um relacionamento saudável e gratificante.</p>
+</section>
+
+<section>
+    <h2>Aceita casar comigo?</h2>
+   <p> <button id="simBtn">Sim</button>
+    <button id="naoBtn">Não</button><br>
+
+    <a href="https://www.icasei.com.br/"> se você clicou em sim, clique nesse link para organizar o nosso casamento</a>
+
+    <script>
+        document.getElementById("simBtn").onclick = function() {
+            alert("Você escolheu Sim!");
+        };
+
+        document.getElementById("naoBtn").onclick = function() {
+            alert("Você escolheu Não!");
+        };
+    </script> </p>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva uma mensagem..." required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+<h1>Ouça nossa música!</h1>
+    <audio controls>
+        <source src="victor e leo.mp3" type="audio/mpeg">
+        Seu navegador não suporta a reprodução de áudio.
+    </audio>
+    <h2>Letra da Música</h2>
+    
+    <div class="container">
+        <div class="texto">
+            <p>Na Linha do Tempo<br>
+                Victor e Leo<br>
+                <br>
+                
+                Eu te dei o ouro do Sol, a prata da Lua<br>
+                Te dei as estrelas pra desenhar o teu céu<br>
+                Na linha do tempo, o destino escreveu<br>
+                Com letras douradas, você e eu<br>
+                <br>
+                Há quanto tempo eu esperava encontrar alguém assim<br>
+                Que se encaixasse bem nos planos que um dia fiz pra mim<br>
+                Você e eu<br>
+                <br>
+                Vou dizer<br>
+                Que nessas frases tem um pouco de nós dois<br>
+                Que não deixamos o agora pra depois<br>
+                Quando te vejo eu me sinto tão completo por onde eu vou<br>
+                <br>
+                E nesses traços vou tentando descrever<br>
+                Que mil palavras é tão pouco pra dizer<br>
+                Que um sentimento muda tudo, muda o mundo<br>
+                Isso é o amor<br>
+                <br>
+                Na linha do tempo, o destino escreveu<br>
+                Com letras douradas, você e eu</br>
+                <br>
+                Há quanto tempo eu esperava encontrar alguém assim<br>
+                Que se encaixasse bem nos planos que um dia fiz pra mim<br>
+                Você e eu<br>
+                <br>
+                Vou dizer<br>
+                Que nessas frases tem um pouco de nós dois<br>
+                Que não deixamos o agora pra depois<br>
+                Quando te vejo eu me sinto tão completo por onde eu vou<br>
+                <br>
+                E nesses traços vou tentando descrever<br>
+                Que mil palavras é tão pouco pra dizer<br>
+                Que um sentimento muda tudo, muda o mundo<br>
+                Isso é o amor<br>
+                <br>
+                Que nessas frases tem um pouco de nós dois<br>
+                Que não deixamos o agora pra depois<br>
+                Quando te vejo eu me sinto tão completo por onde eu vou<br>
+                <br>
+                E nesses traços vou tentando descrever<br>
+                Que mil palavras é tão pouco pra dizer<br>
+                Que um sentimento muda tudo, muda o mundo<br>
+                Isso é o amor<br>
+                <br>
+                Isso é o amor (isso é o amor)<br>
+                Amor</p><br>
+            
+    
+    </pre>
+    <style>
+        .imagem {
+            width: 12px; /* Defina a largura desejada */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+    </style>
+        </div>
+    <small><img src="foto1.jpg">
+    <img src="foto2.JPG">
+    </small>
+    </div>
+    <ul>
+        <li> EU</li>
+        <li> TE </li>
+        <li> AMO </li>
+        <li> PARA </li>
+        <li>SEMPRE</li>
+        </ul>
+
+
+
+
+<footer>
+    <p>©️ 2025 Katyane Vieira. Todos os direitos reservados.<br> É proibida a reprodução total ou parcial deste material sem a autorização <br> expressa do autor. Para solicitações, <br> entre em contato pelo e-mail <br>[katyanevds@gmail.com]</p></b>
+</footer>
+
+</body>
+</html>
